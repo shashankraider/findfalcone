@@ -116,7 +116,7 @@ func FindFalcone(rw http.ResponseWriter, req *http.Request) {
 	}
 	var vehicleNames = find_falcone.TransportVehicleNames
 	if len(vehicleNames) != 4 {
-		errorHandler(rw, req, http.StatusBadRequest, "No of Vehicle names has to be 4"+ len(vehicleNames))
+		errorHandler(rw, req, http.StatusBadRequest, "No of Vehicle names has to be 4")
 		return
 	}
 	if len(falcones) == 0 {
