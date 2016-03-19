@@ -1,0 +1,26 @@
+{
+	"ImportPath": "github.com/dhanush/findfalcone",
+	"GoVersion": "go1.5",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "1c83b3eabd45b6d76072b66b746c20815fb2872d"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "9c068cf16d982f8bd444b8c352acbeec34c4fe5b"
+		},
+		{
+			"ImportPath": "github.com/rs/cors",
+			"Rev": "ceb1fbf238d7711a11a86a2622d0b85305348aeb"
+		},
+		{
+			"ImportPath": "github.com/rs/xhandler",
+			"Rev": "768e938dd1b2901a776cf66e27a9737d64f9e15f"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "55cccaa02af1a99c69ba3213e33468628b61be4b"
+		}
+	]
+}
